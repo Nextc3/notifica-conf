@@ -1,5 +1,6 @@
 //Copie esse arquivo para test-network e execute
-./network.sh up createChannel  -c mychannel -s couchdb
+./network.sh up 
+./network.sh createChannel  
 
 ./network.sh deployCC -ccn notifica-chaincode -ccp ../asset-transfer-basic/notifica-chaincode -ccl go
 export PATH=${PWD}/../bin:$PATH
